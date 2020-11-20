@@ -11,7 +11,7 @@
 - [변수의 스코프와 라이프타임](#변수의-스코프와-라이프타임)
 - [타입 변환, 캐스팅 그리고 타입 프로모션](#타입-변환,-캐스팅-그리고-타입-프로모션)
 - [1차 및 2차 배열 선언하기](#1차-및-2차-배열-선언하기)
-- [타입 추론, var](#타입-추론,-var)
+- [타입 추론, var](#타입-추론-var)
 
 ### 프리미티브 타입 종류와 값의 범위 그리고 기본 값
 *메모리 공간에 데이터(값)가 저장된다.*
@@ -106,7 +106,7 @@ public class JavaScope {
 }
 ```
 
-### 타입 변환, 캐스팅 그리고 타입 프로모션
+### 타입 변환 캐스팅 그리고 타입 프로모션
     Primitive Type 값을 Wrapper Class의 인스턴스로 변환하여 쓰는 과정을 Boxing, 그 반대를 Unboxing 이라고 하는데
     Java 1.5 부터는 이를 자동으로 해주는 AutoBoxing/AutoUnBoxing을 지원한다.
     
@@ -134,7 +134,7 @@ public class JavaScope {
     int[][] array2 = {{4,5,6},{7,8,9}}; // 초기값을 지정.
 ``` 
     
-### 타입 추론, var
+### 타입 추론 var
     Java 10에서 var라는 Local Variable Type-Inference 가 추가되었다.
     이 키워드는 local variable이면서 선언과 동시에 initializer가 필수적으로 요구된다.
     
