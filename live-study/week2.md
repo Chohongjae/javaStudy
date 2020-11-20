@@ -17,7 +17,7 @@
     
     기본형 타입(Primitive type)
         - 기본형은 논리형과 숫자형, 문자열형 등의 기본적인 데이터 타입이다.
-        - "기본값이 있기 때문에 Null이 존재하지 않는다."
+        - "기본값이 있기 때문에" Null이 존재하지 않는다.
             - 만약 기본형 타입에 Null을 넣고 싶다면 래퍼 클래스를 활용한다.
 ![java 프리미티브 타입](../image/java-primitive.png)
-- [이미지 출처](#https://gbsb.tistory.com/6)
+- [이미지 출처](https://gbsb.tistory.com/6)
