@@ -164,9 +164,9 @@ switch (변수) {
     
     자바 14에서는 자바 12-13에서 preivew feature였던 기능이 도입되었다.
     1) case 안에서 여러개의 값을 받는 것이 가능해졌고,
-    2) yield 로 값을 할당하는 것이 가능해졌다.
+    2) yield 로 switch 연산에서 값을 반환하는 것이 가능해졌다.
     3) -> 표현으로 break 없이도 해당 case에서 switch 에 대한 종료가 가능해졌다.
-    4) {} 안에 구문을 작성할 수 있게 되었다.
+    4) -> 뒤에 표현식, 블록({}), throw문이 올 수 있다.
 ```java
 int days = switch (month) {
         case 1, 3, 5, 7, 8, 10, 12 -> 31;
@@ -181,6 +181,32 @@ int days = switch (month) {
             else
                 yield 28;
         }
-        default : yield 0;
+        default ->  0;
 };
 ```
+    이렇게 -> 뒤에 코드 블록({})이 오는 경우 yield 키워드를 사용해 switch 블록의 값을 반환할 수 있다.
+    2월인 경우 days에는 28 혹은 29의 값이 반환된다.
+
+```java
+int days = switch (month) {
+    case 1, 3, 5, 7, 8, 10, 12:
+        yield 31;
+    case 4, 6, 9:
+        yield 30;
+    case 2: {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter year: ");
+        int year = scanner.nextInt();
+ 
+        if (year % 4 == 0)
+            yield 29;
+        else
+            yield 28;
+ 
+    }
+    default: yield 0;
+};
+```    
+    또한 -> + 코드 블록({})이 아니더라도 위의 예처럼 콜론(:)으로 끝나는 전통적인 케이스 레이블과 함께 yield 키워드를 사용할 수 있다. 
+ 
+ ***하지만 switch 블록에서 -> 와 : 은 함께 사용할 수 없다.***
