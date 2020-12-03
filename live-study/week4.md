@@ -103,7 +103,8 @@ do {
 
 ## 과제 0
 ## 과제 1
-- [과제 코드](https://github.com/Chohongjae/javaTraining/blob/master/src/main/java/com/chongjae/javaTraining/liveStudy/week4/HomeWork1.java)
+- [과제 코드1](https://github.com/Chohongjae/javaTraining/blob/master/src/main/java/com/chongjae/javaTraining/liveStudy/week4/HomeWork1.java)
+- [과제 코드2](https://github.com/Chohongjae/javaTraining/blob/master/src/main/java/com/chongjae/javaTraining/liveStudy/week4/GitHubDashBoard.java)
 - [테스트 코드](https://github.com/Chohongjae/javaTraining/blob/master/src/main/java/com/chongjae/javaTraining/liveStudy/week4/HomeWork1.java)
 ## 과제 2
 ## 과제 3
