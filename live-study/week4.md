@@ -101,12 +101,16 @@ do {
 예를들어 조건이 false인 경우 while 문에서는 한번도 처리를 실시하지 않지만, do-while문은 적어도 한 번은 처리를 실행한다.
 ```    
 
-## 과제 0
 ## 과제 1
 - [과제 코드1](https://github.com/Chohongjae/javaTraining/blob/master/src/main/java/com/chongjae/javaTraining/liveStudy/week4/HomeWork1.java)
 - [과제 코드2](https://github.com/Chohongjae/javaTraining/blob/master/src/main/java/com/chongjae/javaTraining/liveStudy/week4/GitHubDashBoard.java)
 - [테스트 코드](https://github.com/Chohongjae/javaTraining/blob/master/src/test/groovy/com/chongjae/javaTraining/liveStudy/week4/GitHubDashBoardTest.groovy)
 ## 과제 2
 ## 과제 3
+- [배열을 사용한 스택](https://github.com/Chohongjae/javaTraining/blob/master/src/main/java/com/chongjae/javaTraining/liveStudy/week4/Stack.java)
+- [배열을 사용한 스택 테스트](https://github.com/Chohongjae/javaTraining/blob/master/src/test/java/com/chongjae/javaTraining/liveStudy/week4/StackTest.java)
 ## 과제 4
+
 ## 과제 5
+- [배열을 사용한 큐](https://github.com/Chohongjae/javaTraining/blob/master/src/main/java/com/chongjae/javaTraining/liveStudy/week4/Queue.java)
+- [배열을 사용한 큐 테스트](https://github.com/Chohongjae/javaTraining/blob/master/src/test/groovy/com/chongjae/javaTraining/liveStudy/week4/QueueTest.groovy)
