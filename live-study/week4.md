@@ -106,11 +106,17 @@ do {
 - [과제 코드2](https://github.com/Chohongjae/javaTraining/blob/master/src/main/java/com/chongjae/javaTraining/liveStudy/week4/GitHubDashBoard.java)
 - [테스트 코드](https://github.com/Chohongjae/javaTraining/blob/master/src/test/groovy/com/chongjae/javaTraining/liveStudy/week4/GitHubDashBoardTest.groovy)
 ## 과제 2
+- [ListNode](https://github.com/Chohongjae/javaTraining/blob/master/src/main/java/com/chongjae/javaTraining/liveStudy/week4/ListNode.java)
+- [ListNode를 사용한 LinkedList](https://github.com/Chohongjae/javaTraining/blob/master/src/main/java/com/chongjae/javaTraining/liveStudy/week4/LinkedList.java)
+- [LinkedList 테스트](https://github.com/Chohongjae/javaTraining/blob/master/src/test/groovy/com/chongjae/javaTraining/liveStudy/week4/LinkedListTest.groovy)
 ## 과제 3
 - [배열을 사용한 스택](https://github.com/Chohongjae/javaTraining/blob/master/src/main/java/com/chongjae/javaTraining/liveStudy/week4/Stack.java)
 - [배열을 사용한 스택 테스트](https://github.com/Chohongjae/javaTraining/blob/master/src/test/java/com/chongjae/javaTraining/liveStudy/week4/StackTest.java)
 ## 과제 4
-
+- [ListNode를 사용한 스택](https://github.com/Chohongjae/javaTraining/blob/master/src/main/java/com/chongjae/javaTraining/liveStudy/week4/ListNodeStack.java)
+- [ListNode를 사용한 스택 테스트](https://github.com/Chohongjae/javaTraining/blob/master/src/test/java/com/chongjae/javaTraining/liveStudy/week4/ListNodeStackTest.java)
 ## 과제 5
 - [배열을 사용한 큐](https://github.com/Chohongjae/javaTraining/blob/master/src/main/java/com/chongjae/javaTraining/liveStudy/week4/Queue.java)
 - [배열을 사용한 큐 테스트](https://github.com/Chohongjae/javaTraining/blob/master/src/test/groovy/com/chongjae/javaTraining/liveStudy/week4/QueueTest.groovy)
+- [ListNode를 사용한 큐](https://github.com/Chohongjae/javaTraining/blob/master/src/main/java/com/chongjae/javaTraining/liveStudy/week4/ListNodeQueue.java)
+- [ListNode를 사용한 큐 테스트](https://github.com/Chohongjae/javaTraining/blob/master/src/test/groovy/com/chongjae/javaTraining/liveStudy/week4/ListNodeQueueTest.groovy)
